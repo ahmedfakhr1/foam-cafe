@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Menu · FOAM | Brunch &amp; Brews</title>
+<style>/* latin-ext */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/e5bab11d09d3.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/40fe3cf77260.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/e5bab11d09d3.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/40fe3cf77260.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'DM Serif Display';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/f83ceed3bd65.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'DM Serif Display';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/fb30d428f329.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/363cbf27f320.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/8c71993fd6bb.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* gujarati */
+@font-face {
+  font-family: 'Shrikhand';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/fe47f1e3085b.woff2) format('woff2');
+  unicode-range: U+0951-0952, U+0964-0965, U+0A80-0AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Shrikhand';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/68c4876b3bf5.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Shrikhand';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/6252d4cd3ad3.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+:root{--bg:#FFFBF2;--ink:#3A0F0F;--muted:#7a5a52;--primary:#9B1B1B;--on-primary:#FFF6E6;--accent:#9B1B1B;--card:#fff;--line:#efdcc4;--line2:#e2b8a8;--dark:#9B1B1B;--on-dark:#F3E7C9;--on-dark-muted:#f0d8c0;--tint:#F3E7C9;--ph:#f1dcc4;--ph2:#f7e8d5;--accent-soft:#F3E7C9;--fh:"DM Serif Display",serif;--fb:"DM Sans",sans-serif;--fw:"Shrikhand",cursive;--wmc:#9B1B1B;--wms:34px;--h1:74px;--h2:52px;--radius:22px;--panel-bg:#9B1B1B;--panel-ink:#F3E7C9;--panel-muted:#f3dcc0;--panel-eyebrow:#F3E7C9;--panel-btn:#F3E7C9;--panel-btn-text:#9B1B1B;--dark-eyebrow:#F3E7C9}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--fb);font-weight:400;-webkit-font-smoothing:antialiased;line-height:1.5}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,h4{font-family:var(--fh);font-weight:var(--hw,400);text-transform:var(--ht,none);letter-spacing:var(--hls,0);line-height:1.05}
+.eyebrow{display:block;font-family:var(--fe,var(--fb));font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent-text,var(--accent));font-weight:500;margin-bottom:12px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 26px;border-radius:var(--radius-btn,999px);font-size:14px;font-weight:500;letter-spacing:.04em;border:1.5px solid var(--primary);white-space:nowrap}
+.btn.primary{background:var(--primary);color:var(--on-primary)}
+.btn.ghost{color:var(--primary);background:transparent}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.badge{display:inline-flex;align-self:flex-start;margin-top:22px;font-size:13px;padding:8px 14px;border:1px solid currentColor;border-radius:999px;opacity:.9}
+.ph{width:100%;height:100%;background-size:cover;background-repeat:no-repeat;background-color:var(--ph)}
+.ph.none{display:grid;place-items:center;background:repeating-linear-gradient(135deg,var(--ph) 0 14px,var(--ph2) 14px 28px)}
+.ph.none span{font-size:11px;letter-spacing:.14em;text-transform:uppercase;background:var(--bg);color:var(--muted);padding:6px 10px;border-radius:4px}
+/* header */
+.hdr{background:var(--hdr-bg,var(--bg));border-bottom:1px solid var(--line);z-index:10}
+.hdr.sticky{position:sticky;top:0}
+.hbar{display:flex;align-items:center;justify-content:space-between;padding:18px 64px}
+.brand{display:flex;align-items:center;gap:14px}
+.logoimg{width:50px;height:50px;object-fit:contain;border-radius:var(--logo-radius,8px);background:var(--logo-bg,transparent)}
+.wm b{display:block;font-family:var(--fw,var(--fh));font-size:var(--wms,26px);font-weight:var(--wmw,400);line-height:1;color:var(--wmc,var(--ink));letter-spacing:var(--wmls,0)}
+.wm i{font-style:normal;font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted)}
+.hdr.named .wm b{display:none}.hdr.named .logoimg{width:64px;height:64px}.hdr.named .wm i{font-size:11px}.hdr.named .logoimg.wide{width:auto;height:44px;background:none;border-radius:0}.hdr.named .brand{gap:20px}
+.nav{display:flex;gap:34px;font-size:14px;letter-spacing:.04em}
+.hr{display:flex;align-items:center;gap:18px;font-size:13px}.lang b{color:var(--primary)}
+.burger{display:none;width:22px;height:14px;flex-direction:column;justify-content:space-between}.burger i{height:2px;background:var(--ink);display:block}
+.chips{display:flex;gap:10px;padding:2px 64px 16px;overflow:hidden;white-space:nowrap}
+.chip{display:inline-flex;align-items:center;gap:8px;padding:9px 16px;border:1px solid var(--line);border-radius:999px;font-size:13px;background:var(--card)}
+.chip:before{content:"";width:6px;height:6px;border-radius:50%;background:var(--accent)}
+.chip.on{background:var(--primary);border-color:var(--primary);color:var(--on-primary)}.chip.on:before{background:var(--on-primary)}
+/* hero */
+.hero{position:relative;display:grid;grid-template-columns:1fr 1.2fr;min-height:640px;border-bottom:1px solid var(--line)}
+.hero .hcopy{grid-column:1;grid-row:1;padding:90px 64px;display:flex;flex-direction:column;justify-content:center}
+.hero .hphoto{grid-column:2;grid-row:1}
+.hero h1{font-size:var(--h1,76px);margin:6px 0 20px}
+.hero p{font-size:18px;color:var(--muted);max-width:440px}
+.hero-full{display:block;min-height:720px;color:#fff}
+.hero-full .hphoto{position:absolute;inset:0}
+.hero-full .hphoto:after{content:"";position:absolute;inset:0;background:var(--hero-shade,linear-gradient(90deg,rgba(0,0,0,.72),rgba(0,0,0,.15)))}
+.hero-full .hcopy{position:relative;z-index:2;min-height:720px;max-width:760px}
+.hero-full p{color:rgba(255,255,255,.85)}
+.hero-full .eyebrow{color:var(--hero-eyebrow,#fff)}
+.hero-full .btn.primary{background:var(--hero-btn,var(--primary));border-color:var(--hero-btn,var(--primary));color:var(--hero-btn-text,var(--on-primary))}
+.hero-full .btn.ghost{color:#fff;border-color:#fff}
+.hero-panel{background:var(--panel-bg);color:var(--panel-ink)}
+.hero-panel .hphoto{padding:34px 34px 34px 0}
+.hero-panel .hphoto .ph{border-radius:var(--radius,18px)}
+.hero-panel p{color:var(--panel-muted)}
+.hero-panel .eyebrow{color:var(--panel-eyebrow,var(--accent))}
+.hero-panel .btn.primary{background:var(--panel-btn);border-color:var(--panel-btn);color:var(--panel-btn-text)}
+.hero-panel .btn.ghost{color:var(--panel-ink);border-color:var(--panel-ink)}
+/* sections */
+.sec{padding:96px 64px}
+.shead{display:flex;justify-content:space-between;align-items:end;margin-bottom:40px;gap:20px}
+.shead h2,.sec h2{font-size:var(--h2,50px)}
+.more{font-size:14px;color:var(--accent-text,var(--accent));white-space:nowrap}
+.dark{background:var(--dark);color:var(--on-dark)}.dark .eyebrow{color:var(--dark-eyebrow,var(--accent))}.dark p{color:var(--on-dark-muted)}
+.dark .btn.primary{background:var(--on-dark);color:var(--dark);border-color:var(--on-dark)}.dark .btn.ghost{color:var(--on-dark);border-color:var(--on-dark)}
+.tint{background:var(--tint)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center}
+.two .txt p{color:var(--muted);font-size:17px;margin-top:16px;max-width:520px}
+.dark .two .txt p{color:var(--on-dark-muted)}
+.two h2{margin-top:4px}
+.two .pic{height:520px;border-radius:var(--radius,12px);overflow:hidden}
+.brows{border-top:1px solid var(--line)}
+.brow{display:grid;grid-template-columns:1fr 1.3fr;gap:64px;align-items:center;padding:36px 0;border-bottom:1px solid var(--line)}
+.brow h3{font-size:40px;margin-bottom:6px}.brow em{font-style:italic;color:var(--accent-text,var(--accent))}.brow p{color:var(--muted);margin:12px 0 0;line-height:1.7}
+.brow .btns{margin-top:20px}.brow .btn{padding:11px 22px}
+.bpic{height:300px;border-radius:var(--radius,12px);overflow:hidden}
+.hours{margin:22px 0 4px;max-width:420px}.hrow{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--line);font-size:15px}
+.note{font-size:13px!important;opacity:.8}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}.cards.n5{grid-template-columns:repeat(5,1fr)}.cards.n3{grid-template-columns:repeat(3,1fr)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius,14px);overflow:hidden;color:var(--ink)}
+.card .ph{height:280px}
+.cin{padding:16px 18px 20px}.cat{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-text,var(--accent));font-weight:500}
+.card h4{font-size:24px;margin:6px 0 4px}.card p{font-size:13.5px;color:var(--muted);min-height:38px}
+.price{display:flex;justify-content:space-between;align-items:center;margin-top:10px;font-size:14px}
+.add{width:30px;height:30px;border-radius:50%;background:var(--primary);color:var(--on-primary);display:grid;place-items:center;font-size:18px}
+.rules-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.rule{background:var(--card);border:1px solid var(--line);border-radius:var(--radius,16px);padding:28px;color:var(--ink)}
+.rule h4{font-size:24px;margin:16px 0 8px}.rule p{font-size:14px;color:var(--muted)}
+.ric{width:52px;height:52px;border-radius:50%;background:var(--accent-soft,var(--tint));display:grid;place-items:center;font-size:24px}
+.steps-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.step .ph{height:240px;border-radius:var(--radius,12px);margin-bottom:18px}
+.step .num{font-family:var(--fh);font-size:34px;color:var(--accent-text,var(--accent))}.step h4{font-size:26px;margin:4px 0 6px}.step p{color:var(--muted);font-size:15px}
+.feat-wrap{display:grid;grid-template-columns:1fr 1.6fr;gap:60px;align-items:center}
+.feats{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.feat{border:1px solid var(--line);border-radius:var(--radius,14px);padding:24px;display:flex;flex-direction:column;gap:8px}.feat b{font-size:17px}.feat span{font-size:13px;color:var(--muted)}
+.dark .feat{border-color:rgba(255,255,255,.18)}.dark .feat span{color:var(--on-dark-muted)}
+.gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:190px;gap:14px}
+.gallery-grid .g{border-radius:var(--radius,12px);overflow:hidden}.g0{grid-row:span 2}.g3{grid-row:span 2}
+.evs{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.ev{border:1px solid var(--line);border-radius:var(--radius,12px);padding:28px}.evd{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-text,var(--accent))}.ev h4{font-size:28px;margin:10px 0 6px}.ev p{font-size:14px;color:var(--muted)}
+.dark .ev{border-color:rgba(255,255,255,.2)}.dark .ev p{color:var(--on-dark-muted)}
+.testi-sec{padding-top:0;padding-bottom:70px}
+.testi{border:1.5px dashed var(--line2,var(--line));border-radius:var(--radius,12px);padding:34px;text-align:center;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+.ighead{display:flex;justify-content:space-between;align-items:center;padding:30px 64px}
+.ighead h3{font-size:32px}.ighead span{color:var(--accent-text,var(--accent))}
+.iggrid{display:grid;grid-template-columns:repeat(6,1fr)}.igt{height:240px}
+.ftr{background:var(--foot,var(--dark));color:var(--on-dark);padding:70px 64px 30px}
+.ftr .wm b{color:var(--on-dark)}.ftr .wm i{color:var(--on-dark-muted)}
+.fgrid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:40px}
+.ftr h5{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--dark-eyebrow,var(--accent));font-weight:500;margin-bottom:12px}
+.ftr p{font-size:14px;line-height:1.9;color:var(--on-dark-muted)}
+.fbot{border-top:1px solid rgba(255,255,255,.15);margin-top:50px;padding-top:22px;display:flex;justify-content:space-between;font-size:12px;color:var(--on-dark-muted)}
+.mbar{display:none}
+/* menu page */
+.mintro{padding:56px 64px 20px;max-width:820px}
+.mintro h1{font-size:64px;margin:4px 0 14px}.mintro p{color:var(--muted);font-size:17px}
+.pill{display:inline-block;margin-top:16px;font-size:12px;background:var(--tint);color:var(--ink);padding:6px 12px;border-radius:999px}
+.msig{padding-top:36px;padding-bottom:10px}.mcards .ph{height:300px}
+.mlist{padding-top:40px;padding-bottom:10px}
+.lgrid{display:grid;grid-template-columns:1fr 1fr;gap:0 48px}
+.lrow{display:flex;justify-content:space-between;gap:20px;padding:18px 0;border-bottom:1px solid var(--line)}
+.lrow b{font-family:var(--fh);font-weight:var(--hw,400);font-size:21px;display:block;text-transform:var(--ht,none);letter-spacing:var(--hls,0)}.lrow span{font-size:13px;color:var(--muted)}.lrow i{font-style:normal;font-size:14px;white-space:nowrap}
+.mblock{margin-top:70px;background:var(--dark);color:var(--on-dark);padding:70px 64px;display:grid;grid-template-columns:1fr 1.2fr;gap:60px}
+.mblock h2{font-size:50px;margin-bottom:14px}.mblock p{color:var(--on-dark-muted)}.mblock .eyebrow{color:var(--dark-eyebrow,var(--accent))}.mblock .small{font-size:13px;margin-top:12px}
+.tog{display:flex;background:rgba(255,255,255,.08);border-radius:999px;padding:5px;margin-top:24px;max-width:360px}
+.tog span{flex:1;text-align:center;padding:10px;border-radius:999px;font-size:14px}.tog .on{background:var(--on-dark);color:var(--dark)}
+.bcard{border:1px solid rgba(255,255,255,.18);border-radius:12px;margin-bottom:14px}
+.bt{display:flex;justify-content:space-between;align-items:center;padding:20px 22px}.bcard h3{font-size:28px;color:var(--on-dark)}
+.ba{font-size:14px;color:var(--on-dark-muted);margin-top:4px}.bs{font-size:11px;letter-spacing:.16em;text-transform:uppercase;opacity:.6;margin-top:8px}
+.chev{font-size:24px;color:var(--dark-eyebrow,var(--accent))}.bf{border-top:1px solid rgba(255,255,255,.18);padding:12px 22px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--dark-eyebrow,var(--accent))}
+@media(max-width:1100px) and (min-width:641px){.hbar{padding:16px 32px;gap:20px}.nav{display:none}.burger{display:flex}.wm i{white-space:nowrap}}
+@media(max-width:640px){
+ body{padding-bottom:70px}
+ .hbar{padding:14px 18px}.nav,.lang{display:none}.burger{display:flex}.hr{gap:12px}.hr .btn{padding:10px 16px;font-size:12px}
+ .logoimg{width:40px;height:40px;flex:none}.wm b{font-size:calc(var(--wms,26px)*.8)}.wm i{font-size:8px;letter-spacing:.18em}
+ .brand{min-width:0;gap:10px}.wm{min-width:0}.wm b,.wm i{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.wm i{display:block;margin-top:4px}
+ .hbar .hr .btn{display:none}.hbar{gap:12px}
+ .hdr.named .logoimg{width:52px;height:52px}.hdr.named .wm i{font-size:9px}.hdr.named .logoimg.wide{width:auto;height:34px}.hdr.named .brand{gap:14px}
+ .chips{padding:2px 18px 12px}
+ .hero{display:flex;flex-direction:column;min-height:0}.hero .hphoto{height:340px;padding:0!important}.hero .hphoto .ph{border-radius:0!important}
+ .hero .hcopy{padding:34px 20px 40px}.hero h1{font-size:calc(var(--h1,76px)*.58)}.hero p{font-size:16px}
+ .hero-full{min-height:0}.hero-full .hphoto{position:relative;inset:auto}.hero-full .hcopy{min-height:0;background:var(--dark);color:var(--on-dark)}
+ .sec{padding:54px 20px}.shead{margin-bottom:24px}.shead h2,.sec h2{font-size:calc(var(--h2,50px)*.7)}
+ .two{grid-template-columns:1fr;gap:26px}.two .pic{height:300px;order:-1}
+ .brow{grid-template-columns:1fr;gap:18px}.brow .bpic{order:-1;height:210px}.brow h3{font-size:30px}
+ .cards,.cards.n5,.cards.n3{grid-template-columns:1fr 1fr;gap:12px}.card .ph{height:170px}.card h4{font-size:19px}.card p{font-size:12.5px}.cin{padding:12px}
+ .cards.n5 .card:nth-child(5),.cards.n3 .card:nth-child(3){display:none}
+ .rules-grid{display:flex;overflow:hidden;gap:12px;margin-right:-20px}.rule{flex:0 0 74%}
+ .steps-grid{grid-template-columns:1fr;gap:26px}.step .ph{height:190px}
+ .feat-wrap{grid-template-columns:1fr;gap:22px}.feats{grid-template-columns:1fr 1fr 1fr;gap:10px}.feat{padding:14px}.feat span{display:none}
+ .gallery-grid{display:flex;overflow:hidden;gap:10px;margin-right:-20px}.gallery-grid .g{flex:0 0 58%;height:240px}
+ .evs{grid-template-columns:1fr}
+ .ighead{padding:24px 20px}.ighead h3{font-size:22px}.iggrid{grid-template-columns:repeat(3,1fr)}.igt{height:130px}.igt:nth-child(n+4){display:none}
+ .ftr{padding:44px 20px 24px}.fgrid{grid-template-columns:1fr;gap:18px}
+ .mbar{display:grid;grid-template-columns:repeat(3,1fr);position:fixed;left:0;right:0;bottom:0;height:66px;background:var(--bg);border-top:1px solid var(--line);align-items:center;text-align:center;font-size:11px;letter-spacing:.1em;text-transform:uppercase;z-index:20}
+ .mbar div{display:flex;flex-direction:column;align-items:center;gap:3px}.mbar .mi{font-size:18px;line-height:1}.mbar .hot{color:var(--accent-text,var(--accent))}
+ .mintro{padding:34px 20px 10px}.mintro h1{font-size:40px}.mcards .ph{height:180px}
+ .lgrid{grid-template-columns:1fr}.mblock{grid-template-columns:1fr;padding:44px 20px;gap:24px}.mblock h2{font-size:36px}
+}
+.dark .ric{background:rgba(255,255,255,.1)}
+.foam .hero h1,.foam .sec h2,.foam .mintro h1,.foam .mblock h2{font-family:"Shrikhand",cursive;font-weight:400;letter-spacing:.01em}.foam .hero h1{font-size:68px}.foam .hero-panel{background:#9B1B1B repeating-linear-gradient(90deg,#9B1B1B 0 60px,#a82424 60px 120px)}.foam .hero-panel .hcopy{background:#9B1B1B}.foam .s-rules{background:#F3E7C9}.foam .card h4,.foam .rule h4{font-family:"DM Serif Display",serif}.foam .step .num{font-family:"Shrikhand"}.foam .hdr{border-bottom:6px solid #9B1B1B}.foam .ftr .wm b{font-family:"Shrikhand"}</style><meta content="The FOAM menu: coffee, matcha, fresh drinks, brunch and small plates, served under the trees in Zamalek." name="description"/><meta content="#9B1B1B" name="theme-color"/><meta content="Menu · FOAM | Brunch &amp; Brews" property="og:title"/><meta content="The FOAM menu: coffee, matcha, fresh drinks, brunch and small plates, served under the trees in Zamalek." property="og:description"/><meta content="img/foam/hero-garden-seating.jpg" property="og:image"/><meta content="noindex" name="robots"/><link href="img/foam/logo.png" rel="icon" type="image/png"/><link href="site.css" rel="stylesheet"/></head><body class="foam"><header class="hdr sticky named"><div class="hbar"><a aria-label="FOAM home" class="brand" href="index.html"><img alt="FOAM" class="logoimg wide" src="img/foam/logo-wordmark.png"/><div class="wm"><b>FOAM</b><i>Brunch &amp; Brews</i></div></a>
+<nav class="nav"><a aria-current="page" class="cur" href="menu.html">Menu</a><a href="index.html#before">Before you come</a><a href="index.html#find">Find us</a></nav><div class="hr"><span class="lang"><button aria-pressed="true" type="button">EN</button><span aria-hidden="true">|</span><button aria-pressed="false" class="js-ar" lang="ar" type="button">ع</button></span><a class="btn primary" href="https://www.google.com/maps/search/?api=1&amp;query=FOAM+Brunch+%26+Brews%2C+3+Al+Sheikh+Al+Marsafi%2C+Zamalek%2C+Cairo" rel="noopener" target="_blank">Get directions</a><button aria-controls="mnav" aria-expanded="false" aria-label="Open menu" class="burger" type="button"><span><i></i><i></i><i></i></span></button></div></div><nav aria-label="Menu sections" class="chips js-jump"><a class="chip on" href="#coffee">Coffee</a><a class="chip" href="#matcha">Matcha</a><a class="chip" href="#fresh">Fresh drinks</a><a class="chip" href="#brunch">Brunch</a><a class="chip" href="#plates">Small plates</a></nav></header><nav aria-label="Mobile" class="mnav" hidden="" id="mnav">
+<a class="big" href="menu.html">Menu</a><a class="big" href="index.html#before">Before you come</a><a class="big" href="index.html#find">Finding FOAM</a><a class="big" href="index.html#visit">Hours</a>
+<div class="btns"><a class="btn primary" href="https://www.google.com/maps/search/?api=1&amp;query=FOAM+Brunch+%26+Brews%2C+3+Al+Sheikh+Al+Marsafi%2C+Zamalek%2C+Cairo" rel="noopener" target="_blank">Get directions</a><a class="btn ghost" href="https://www.instagram.com/foam.brunchandbrews/" rel="noopener" target="_blank">Instagram</a></div>
+<p class="mnav-meta">Italian Cultural Institute<br/>3 Al Sheikh Al Marsafi, Zamalek<br/>Walk-ins only</p></nav><div class="mintro"><span class="eyebrow">Good morning, neighbour</span><h1>Brunch is on under the trees</h1><p>Walk-ins only. Everything is served in the garden, under the trees.</p><span class="pill">Prices to be confirmed</span></div>
+<section class="sec msig"><div class="shead"><div><span class="eyebrow">Most loved</span><h2>Signatures</h2></div></div><div class="cards mcards n3"><a class="card" href="#coffee"><div class="ph real" style="background-image:url(img/foam/brand-espresso-cup.jpg);background-position:center 70%;background-size:cover"></div><div class="cin"><span class="cat">Coffee</span><h4>Espresso</h4><p>Served in our red cups.</p><div class="price"><span>EGP --</span></div></div></a><a class="card" href="#fresh"><div class="ph real" style="background-image:url(img/foam/drink-coco-pine.jpg);background-position:center;background-size:cover"></div><div class="cin"><span class="cat">Fresh</span><h4>Coco Pine</h4><p>Description from your menu.</p><div class="price"><span>EGP --</span></div></div></a><a class="card" href="#brunch"><div class="ph none"><span>Photo: Roast beef sandwich</span></div><div class="cin"><span class="cat">Brunch</span><h4>Roast beef sandwich</h4><p>Onion jam and smoked cheddar.</p><div class="price"><span>EGP --</span></div></div></a></div></section><section class="sec mlist" id="coffee"><div class="shead"><div><h2>Coffee</h2></div></div><div class="lgrid"><div class="lrow"><div><b>Espresso</b><span>Served in our red cups</span></div><i>EGP --</i></div><div class="lrow"><div><b>Latte</b><span>Espresso and milk</span></div><i>EGP --</i></div></div></section><section class="sec mlist" id="matcha"><div class="shead"><div><h2>Matcha</h2></div></div><div class="lgrid"><div class="lrow"><div><b>Matcha</b><span>Details from your menu</span></div><i>EGP --</i></div></div></section><section class="sec mlist" id="fresh"><div class="shead"><div><h2>Fresh drinks</h2></div></div><div class="lgrid"><div class="lrow"><div><b>Liquid Gold</b><span>Orange, lemon and ginger</span></div><i>EGP --</i></div><div class="lrow"><div><b>Coco Pine</b><span>Details from your menu</span></div><i>EGP --</i></div></div></section><section class="sec mlist" id="brunch"><div class="shead"><div><h2>Brunch</h2></div></div><div class="lgrid"><div class="lrow"><div><b>Roast beef sandwich</b><span>Sweet onion jam, smoked cheddar</span></div><i>EGP --</i></div></div></section><section class="sec mlist" id="plates"><div class="shead"><div><h2>Small plates</h2></div></div><div class="lgrid"><div class="lrow"><div><b>Tomato salad</b><span>Back on the board</span></div><i>EGP --</i></div><div class="lrow"><div><b>Small lunch plates</b><span>Details from your menu</span></div><i>EGP --</i></div></div></section><section class="sec mlist"><div class="mboard"><div aria-label="The FOAM menu board" class="ph real" role="img" style="background-image:url(img/foam/brand-menu-board.jpg);background-position:center;background-size:cover"></div><div><span class="eyebrow">The full menu</span><h2>Everything on the board, here</h2><p class="mnote" style="font-size:16px;margin-top:14px;max-width:460px">In the full site, every item from your board lives here with its price and description, and you can update it yourselves.</p></div></div></section>
+<section class="mblock"><div><span class="eyebrow">Before you come</span><h2>House rules, kindly</h2><p>Groups up to 5 · no laptops on weekends · no takeaway containers · pets welcome.</p></div><div><a class="bcard" href="https://www.google.com/maps/search/?api=1&amp;query=FOAM+Brunch+%26+Brews%2C+3+Al+Sheikh+Al+Marsafi%2C+Zamalek%2C+Cairo" rel="noopener" target="_blank"><div class="bt"><div><h3>FOAM</h3><div class="ba">Italian Cultural Institute, 3 Al Sheikh Al Marsafi</div><div class="bs">Walk-ins only</div></div><span class="chev">›</span></div><div class="bf">⌖ Directions</div></a></div></section><script defer="" src="site.js"></script></body></html>
