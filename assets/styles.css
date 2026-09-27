@@ -188,6 +188,8 @@ address{font:500 22px/1.4 var(--serif);font-style:normal;margin:22px 0 28px}
 }
 @media (max-width:640px){
   body{font-size:16px;padding-bottom:84px}
+  .notice{font-size:11px;letter-spacing:.04em;padding:10px 12px}
+  .concept{font-size:11px}
   .wrap{width:calc(100% - 32px)}
   .header-row{height:64px;gap:12px}
   .wordmark{font-size:34px}
