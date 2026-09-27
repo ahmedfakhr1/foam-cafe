@@ -61,3 +61,12 @@ a.card:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(58,15,15,.10
 .ftr a:hover{text-decoration:underline;text-underline-offset:3px}
 .nav a:hover:after{transform:scaleX(1)}
 }
+/* live open / closed status (Cairo time) */
+.status{display:inline-flex;align-items:center;gap:8px;font:600 13px/1 var(--fb);letter-spacing:.02em;padding:8px 14px;border-radius:999px;background:rgba(255,255,255,.14);color:inherit;margin:4px 0 14px;align-self:flex-start;width:max-content}
+.status i{width:8px;height:8px;border-radius:50%;background:#c9b8a8}
+.status.is-open i{background:#3fae5a;box-shadow:0 0 0 4px rgba(63,174,90,.22)}
+.status.is-closed i{background:#e0786b}
+.mintro .status{background:var(--tint);color:var(--ink);margin-top:14px}
+.s-events .card .cat{white-space:normal}
+.s-events .cards.n3 .ph{aspect-ratio:4/3;height:auto}
+.hours .hrow.is-today b,.hours .hrow.is-today span{color:var(--accent)}

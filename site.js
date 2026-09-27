@@ -59,3 +59,32 @@
     window.addEventListener('scroll', spy, { passive: true });
   }
 })();
+
+// Live open / closed status in Cairo time. Monday 8am to 6pm, every other day 8am to 9pm.
+(function () {
+  var pills = document.querySelectorAll('.js-status');
+  if (!pills.length) return;
+  function now() {
+    try {
+      var p = {};
+      new Intl.DateTimeFormat('en-US', { timeZone: 'Africa/Cairo', weekday: 'short', hour: 'numeric', minute: 'numeric', hourCycle: 'h23' })
+        .formatToParts(new Date()).forEach(function (x) { p[x.type] = x.value; });
+      return { day: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].indexOf(p.weekday), hour: +p.hour + (+p.minute) / 60 };
+    } catch (e) { return null; }
+  }
+  function fmt(h) { return h === 12 ? '12pm' : h > 12 ? (h - 12) + 'pm' : h + 'am'; }
+  function update() {
+    var t = now(); if (!t) return;
+    var close = t.day === 1 ? 18 : 21, open = t.hour >= 8 && t.hour < close;
+    var txt = open ? 'Open now · until ' + fmt(close) : 'Closed now · opens ' + (t.hour < 8 ? '' : 'tomorrow ') + '8am';
+    pills.forEach(function (el) {
+      el.classList.toggle('is-open', open); el.classList.toggle('is-closed', !open);
+      el.querySelector('.js-status-text').textContent = txt;
+    });
+    document.querySelectorAll('.hours .hrow').forEach(function (r) {
+      var label = r.firstElementChild.textContent.trim();
+      r.classList.toggle('is-today', (label === 'Monday') === (t.day === 1));
+    });
+  }
+  update(); setInterval(update, 60000);
+})();
